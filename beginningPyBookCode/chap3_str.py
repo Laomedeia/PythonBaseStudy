@@ -8,7 +8,8 @@ print(format % pi)
 title = "My Lazio is the champion" #find查找
 print(title.find('Lazio'))
 myList = ["totti", "is", "shabi"] #join方法
-print(" ".join(myList));
+print(myList[-1])
+print(" ".join(myList))
 dirs = "", "usr", "bin", "env"
 print("C:" + "\\".join(dirs))
 print("this is a test replace".replace("this", "that")) #replace方法
